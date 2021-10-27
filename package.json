@@ -1,19 +1,22 @@
 ﻿{
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "1.0.0",
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "14.x"
   },
-   "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.16.2",
-    "request": "^2.83.0"
-  },
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   }
 }
 
